@@ -16,34 +16,29 @@
     padding: 0;
 }
 
-.navbar{
-    
+.navbar{    
     display: flex;
     justify-content: space-between;
     background-color: var(--fourth-black);
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 1px 1px 10px var(--first-black);
-      
+    box-shadow: 1px 1px 10px var(--first-black);      
 }
+
 .navbar a{
     text-decoration: none;
-    color: var(--new-white);
-        
+    color: var(--new-white);        
 }
 
 .navbar a:hover{
-    color: #9466FF;
-    
-        
+    color: #9466FF;   
 }
 
 li{
     list-style: none;
     padding: 10px;
     text-transform: uppercase; 
-    
 }
 
 .link{
@@ -59,7 +54,6 @@ button{
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 4px;
-
 }
 
 ul{
@@ -68,8 +62,6 @@ ul{
     color: var(--new-white);
     margin-top: 10px;
     margin-bottom: 10px;    
-
-    
 }
 
 ul:last-child{
@@ -82,7 +74,6 @@ ul:last-child{
     margin-left: 200px;
     padding: 15px;
     display: flex;
-
 }
 
 .logo-effect{
@@ -110,8 +101,7 @@ ul:last-child{
     border-radius: 50%;
     max-width: 17%;
     margin: auto;    
-    border: solid var(--purple) 5px;
-        
+    border: solid var(--purple) 5px;   
 }
 
 .skills{
@@ -119,33 +109,27 @@ ul:last-child{
     margin: auto;
     display: flex;  
     color: var(--new-white);  
-    text-align: center
-       
+    text-align: center 
 }
 
 
 .skills, .title, .contact{
     background-color: var(--second-black);
-
-
 }
 
 .skills-section, .projects-section, .contact-section, .footer {
     box-shadow: 100px 100px 250px var(--first-black);
 }
 
-
 .title{
     color: var(--new-white);
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
-
 }
 
 .skill-img{
     margin: auto; 
-
 }
 
 .skill-img img{    
@@ -165,7 +149,6 @@ ul:last-child{
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
-
 }
 
 .project-img{
@@ -196,12 +179,10 @@ ul:last-child{
 .contact-img img{    
     max-width: 50px;
     border-radius: 10%;
-
 }
 
 .footer{
     background-color: var(--fourth-black);
-
 }
 
 .footer p{
@@ -218,18 +199,15 @@ ul:last-child{
         margin: auto;    
     }    
     
-   
     .project-img img{
         max-width: 350px;
         box-shadow: 1px 1px 5px gray;
-    
     }
     
     .project-img p{
         color: var(--new-white);
         text-align: center;
         padding-bottom: 40px;
-    
     }
 }
 
@@ -241,7 +219,6 @@ ul:last-child{
         position: fixed;
         text-align: center;
         width: 100vw;       
-
     }
 
     .logo{
@@ -254,7 +231,6 @@ ul:last-child{
         padding: 0;
         width: 100%;
         font-size: 14px;
-        
     }    
 
     .bio{
@@ -262,7 +238,6 @@ ul:last-child{
         display: flex;
         flex-direction: column;
         padding: 200px 0px 0px 0px;
-       
     }
     
     .bio-text{
@@ -314,14 +289,12 @@ ul:last-child{
     .project-img img{
         max-width: 250px;
         box-shadow: 1px 1px 5px gray;
-    
     }
     
     .project-img p{
         color: var(--new-white);
         text-align: center;
         padding-bottom: 40px;
-    
     }
 
     .contact{
@@ -344,6 +317,3 @@ ul:last-child{
         box-shadow: 1px 1px 200px var(--first-black);
     }
 }
-
-
-
