@@ -119,8 +119,10 @@ ul:last-child{
     margin: auto;
     display: flex;  
     color: var(--new-white);  
-    text-align: center;    
+    text-align: center
+       
 }
+
 
 .skills, .title, .contact{
     background-color: var(--second-black);
