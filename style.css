@@ -146,10 +146,8 @@ ul:last-child{
 
 }
 
-.skill-img img{
-    width: 1/3;
+.skill-img img{    
     max-width: 125px;
-
 }
 
 .projects{
@@ -255,11 +253,7 @@ ul:last-child{
         width: 100%;
         font-size: 14px;
         
-    }
-
-    ul a{
-        width: 1/4;
-    }
+    }    
 
     .bio{
         width: 100vw;    
